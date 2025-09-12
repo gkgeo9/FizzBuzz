@@ -2,18 +2,7 @@ package lab1;
 
 public class Reduce {
     public static void main(String[] args) {
-        System.out.println(
-                reduce(0)
-        );
-        System.out.println(
-                reduce(-1)
-        );
-        System.out.println(
-                reduce(1)
-        );
-        System.out.println(
-                reduce(-8)
-        );
+        System.out.println(reduce(100));
     }
 
     public static int reduce(int n) {
